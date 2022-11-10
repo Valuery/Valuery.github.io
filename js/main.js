@@ -166,12 +166,12 @@ function blur(ctx, canvas, amt) {
 
 function update() {
   clear();
-  particles = particles.filter(function(p) {
-    return p.move();
-  });
-  microparticles = microparticles.filter(function(mp) {
-    return mp.move();
-  });
+  // particles = particles.filter(function(p) {
+  //   return p.move();
+  // });
+  // microparticles = microparticles.filter(function(mp) {
+  //   return mp.move();
+  // });
   requestAnimationFrame(update.bind(this));
 }
 
